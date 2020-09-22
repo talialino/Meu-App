@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Cupom Doce</string>
+    <string name="welcome">Bem vindo(a)!!</string>
+    <string name="text_bt1">Acessar cupom</string>
+    <string name="txt_bt2">Cadastre-se</string>
+</resources>
