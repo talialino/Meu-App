@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="tam_txt1">50px</dimen>
+    <dimen name="wid_text">190dp</dimen>
+    <dimen name="heig_text">130dp</dimen>
 </resources>
