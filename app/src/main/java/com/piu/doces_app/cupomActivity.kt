@@ -7,5 +7,8 @@ class cupomActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cupom)
+
+        var d = 0
+        d++
     }
 }

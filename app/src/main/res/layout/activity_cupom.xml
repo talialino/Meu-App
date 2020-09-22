@@ -7,88 +7,114 @@
     tools:context=".cupomActivity">
 
     <TextView
-        android:id="@+id/topqtd"
+        android:id="@+id/barratop"
         android:layout_width="400dp"
-        android:layout_height="100dp"
-        android:text=" "
-        android:background="#9EF4DCDC"
+        android:layout_height="60dp"
+        android:text="@string/txt_cupons"
+        android:textSize="@dimen/tam_txt3"
+        android:gravity="center"
+        android:background="#A3FF5722"
         android:layout_centerInParent="true"
         android:layout_alignParentTop="true"
         />
 
-    <TextView
-        android:id="@+id/qd1"
+
+    <Button
+        android:id="@+id/bt_es1"
         android:layout_width="@dimen/wid_text"
         android:layout_height="@dimen/heig_text"
         android:text=" "
-        android:background="@android:color/holo_blue_light"
+        android:textSize="@dimen/tam_txt2"
         android:layout_centerVertical="true"
-        android:layout_below="@id/topqtd"
+        android:layout_below="@id/barratop"
         />
-
-    <TextView
-        android:id="@+id/cent1"
-        android:layout_width="@dimen/wid_text"
-        android:layout_height="30dp"
-        android:text=" "
-        android:background="@android:color/white"
-        android:layout_centerVertical="true"
-        android:layout_below="@id/qd1"
-        />
-
-    <TextView
-        android:id="@+id/meio"
-        android:layout_width="30dp"
-        android:layout_height="@dimen/heig_text"
-        android:layout_centerInParent="true"
-        android:background="@android:color/white"
-        android:layout_below="@id/topqtd"
-        />
-
-    <TextView
-        android:id="@+id/qd2"
+    <Button
+        android:id="@+id/bt_es2"
         android:layout_width="@dimen/wid_text"
         android:layout_height="@dimen/heig_text"
         android:text=" "
-        android:background="@android:color/holo_green_dark"
+        android:textSize="@dimen/tam_txt2"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@id/meio"
-        android:layout_below="@id/topqtd"
+        android:layout_below="@id/bt_es1"
         />
-
-    <TextView
-        android:id="@+id/cent2"
-        android:layout_width="@dimen/wid_text"
-        android:layout_height="30dp"
-        android:text=" "
-        android:background="@android:color/white"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@id/meio"
-        android:layout_below="@id/qd2"
-        />
-
-    <TextView
-        android:id="@+id/qd3"
+    <Button
+        android:id="@+id/bt_es3"
         android:layout_width="@dimen/wid_text"
         android:layout_height="@dimen/heig_text"
         android:text=" "
-        android:background="@android:color/holo_blue_light"
+        android:textSize="@dimen/tam_txt2"
         android:layout_centerVertical="true"
-        android:layout_below="@id/cent1"
+        android:layout_below="@id/bt_es2"
         />
-
-    <TextView
-        android:id="@+id/qd4"
+    <Button
+        android:id="@+id/bt_es4"
         android:layout_width="@dimen/wid_text"
         android:layout_height="@dimen/heig_text"
         android:text=" "
-        android:background="@android:color/holo_green_dark"
+        android:textSize="@dimen/tam_txt2"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@id/meio"
-        android:layout_below="@id/cent2"
+        android:layout_below="@id/bt_es3"
+        />
+    <Button
+        android:id="@+id/bt_es5"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/bt_es4"
         />
 
-
+    <Button
+        android:id="@+id/bt_di1"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/barratop"
+        />
+    <Button
+        android:id="@+id/bt_di2"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bt_di1"
+        />
+    <Button
+        android:id="@+id/bt_di3"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bt_di2"
+        />
+    <Button
+        android:id="@+id/bt_di4"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bt_di3"
+        />
+    <Button
+        android:id="@+id/bt_di5"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bt_di4"
+        />
 
 
 </RelativeLayout>
