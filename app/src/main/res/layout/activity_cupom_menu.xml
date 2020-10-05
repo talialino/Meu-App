@@ -1,10 +1,263 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".cupom_menuActivity">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/barratop"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="@string/txt_cupons"
+        android:textSize="@dimen/tam_txt3"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="@color/bt_menu_colors"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        />
+
+
+    <Button
+        android:id="@+id/bt_es1"
+
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/barratop"
+        />
+    <Button
+        android:id="@+id/bt_es2"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/bt_es1"
+        />
+    <Button
+        android:id="@+id/bt_es3"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/bt_es2"
+        />
+    <Button
+        android:id="@+id/bt_es4"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/bt_es3"
+        />
+    <Button
+        android:id="@+id/bt_es5"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/bt_es4"
+        />
+
+    <Button
+        android:id="@+id/bt_di1"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/barratop"
+        />
+    <Button
+        android:id="@+id/bt_di2"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bt_di1"
+        />
+    <Button
+        android:id="@+id/bt_di3"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bt_di2"
+        />
+    <Button
+        android:id="@+id/bt_di4"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bt_di3"
+        />
+    <Button
+        android:id="@+id/bt_di5"
+        android:layout_width="@dimen/wid_text"
+        android:layout_height="@dimen/heig_text"
+        android:text=" "
+        android:textSize="@dimen/tam_txt2"
+        android:backgroundTint="@color/bts_colors"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bt_di4"
+        />
+
+    <ImageView
+        android:id="@+id/img_di1"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_di1"
+        android:layout_alignTop="@id/bt_di1"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/img_di2"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_di2"
+        android:layout_alignTop="@id/bt_di2"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/img_di3"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_di3"
+        android:layout_alignTop="@id/bt_di3"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/img_di4"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_di4"
+        android:layout_alignTop="@id/bt_di4"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/img_di5"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_di5"
+        android:layout_alignTop="@id/bt_di5"
+        android:layout_centerVertical="true"
+        />
+
+
+    <ImageView
+        android:id="@+id/img_es1"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_es1"
+        android:layout_alignTop="@id/bt_es1"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/img_es2"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_es2"
+        android:layout_alignTop="@id/bt_es2"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/img_es3"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_es3"
+        android:layout_alignTop="@id/bt_es3"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/img_es4"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_es4"
+        android:layout_alignTop="@id/bt_es4"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/img_es5"
+        android:src="@drawable/ic_chococupom"
+        android:visibility="invisible"
+        android:layout_width="@dimen/wid_view_cupom"
+        android:layout_height="@dimen/heig_view_cupom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/bt_es5"
+        android:layout_alignTop="@id/bt_es5"
+        android:layout_centerVertical="true"
+        />
+
+
+</RelativeLayout>

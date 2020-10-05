@@ -3,5 +3,5 @@
     <string name="welcome">Bem vindo(a)!!</string>
     <string name="text_bt1">Acessar cupom</string>
     <string name="txt_bt2">Cadastre-se</string>
-    <string name="txt_cupons">Faltam x compras para sua promoção! %d</string>
+    <string name="txt_cupons">Faltam pouco para sua promoção!</string>
 </resources>

@@ -34,7 +34,7 @@
         android:layout_below="@id/img1"
         android:text="@string/text_bt1"
         android:textColor="@android:color/white"
-        android:backgroundTint="#F2DC9224"
+        android:backgroundTint="@color/bt_menu_colors"
         />
 
 
@@ -46,7 +46,7 @@
         android:layout_below="@id/bt1"
         android:text="@string/txt_bt2"
         android:textColor="@android:color/white"
-        android:backgroundTint="#F2DC9224"
+        android:backgroundTint="@color/bt_menu_colors"
         />
 
 

@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#9A4C33</color>
     <color name="colorAccent">#AE9993</color>
     <color name="bts_colors">#80FF4444</color>
+    <color name="bt_menu_colors">#F2DC9224</color>
 </resources>

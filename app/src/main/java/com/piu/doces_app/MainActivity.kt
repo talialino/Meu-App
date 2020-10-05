@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         bt1.setOnClickListener {
-            val intent = Intent(this, cupomActivity::class.java)
+            val intent = Intent(this, cupom_menuActivity::class.java)
             startActivity(intent)
         }
 
